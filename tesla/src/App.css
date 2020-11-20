@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+html{
+  font-size: 16px;
+}
+h1{
+  font-size: 2em;
+  color: tomato;
+}
+h2 {
+  font-size: 1.5em;
+  color: cornflowerblue;
+}
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+}
+.btnSelect {
+  font-size: 1.2em;
+  height: 80px;
+  border: 1px solid silver;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  margin: 10px;
+}
+.active{
+  background-color: darkgray;
+  border-color: indigo;
+}
